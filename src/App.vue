@@ -17,7 +17,7 @@ const getName = async () => {
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="WELCOME TO THE DING DANG INTERNET!" />
+      <HelloWorld msg="hello beep boop bop" />
       <button class="green" @click="getName" aria-label="get name">
         Name from API is: {{ name }}
       </button>
