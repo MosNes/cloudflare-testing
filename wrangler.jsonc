@@ -17,11 +17,19 @@
 	"compatibility_flags": [
 		"nodejs_compat"
 	],
-	"routes" :[
+	"routes": [
 		{
-      "pattern": "test.mosnes.com",
-      "custom_domain": true
-    }
+			"pattern": "test.mosnes.com",
+			"custom_domain": true
+		}
+	],
+	"d1_databases": [
+		{
+			"binding": "db",
+			"database_name": "test-db",
+			"database_id": "6591c7f4-ef01-445d-9ab2-199286b2591b",
+			"remote": true
+		}
 	]
 	/**
 	 * Smart Placement
